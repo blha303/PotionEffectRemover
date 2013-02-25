@@ -1,0 +1,13 @@
+name: PotionEffectRemover
+main: me.blha303.PotionEffectRemover
+version: 1
+author: blha303
+commands:
+    rmeffect:
+        description: Lets you remove a particular effect from all players. If no argument, removes all effects.
+        usage: /rmeffect [effectname]
+        aliases: [rme]
+permissions:
+    command.rmeffect:
+        description: Allows players to use /rmeffect
+        default: op
